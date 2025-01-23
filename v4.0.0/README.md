@@ -72,12 +72,6 @@ Sollen mehrere xdomea-Container übergeben werden, z.B. mehrere Vorgänge in je
 einem eigenen Container, kann eine zusätzliche Transportdatei verwendet werden,
 die beispielsweise eine Liste aller Container samt ihrer Hashwerte enthält
 (siehe Spezifikation Seite 11). Die xdomea-Spezifikation macht keine Vorgaben
-zum Format oder Namen der Transportdatei.
-
-Sollen mehrere xdomea-Container übergeben werden, z.B. mehrere Vorgänge in je
-einem eigenen Container, kann eine zusätzliche Transportdatei verwendet werden,
-die beispielsweise eine Liste aller Container samt ihrer Hashwerte enthält
-(siehe Spezifikation Seite 11). Die xdomea-Spezifikation macht keine Vorgaben
 zum Format oder Namen der Transportdatei. Außerdem sollten in diesem Fall die
 übergreifende ProzessID in allen zusammengehörigen Nachrichten identisch sein
 sowie die Elemente LfdNrNachrichtProTyp und GesamtanzahlNachrichtenProTyp
