@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdomea:Aussonderung.Aussonderung.0503 xmlns:xdomea="urn:xoev-de:xdomea:schema:4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xoev-de:xdomea:schema:4.0.0 /dev/null" produkt="[Software, die diese Nachricht erstellt hat]" produkthersteller="[Softwarehersteller]" standard="xdomea" version="4.0.0">
+  <xdomea:nachrichtenkopf>
+    <xdomea:identifikation.nachricht>
+      <!-- UUID dieser Nachricht -->
+      <nachrichtenUUID>95b80307-d19c-11ef-a43a-005056871b7c</nachrichtenUUID>
+      <nachrichtentyp listURI="urn:xoev-de:xdomea:codeliste:nachrichtentyp" listVersionID="3.0">
+        <code>0503</code>
+        <name>Aussonderung.Aussonderung</name>
+      </nachrichtentyp>
+      <erstellungszeitpunkt>2025-01-15T12:00:00.000Z</erstellungszeitpunkt>
+    </xdomea:identifikation.nachricht>
+    <xdomea:leser>
+      <xdomea:NameInstitution>
+        <xdomea:Name>Landesarchiv NRW</xdomea:Name>
+      </xdomea:NameInstitution>
+    </xdomea:leser>
+    <xdomea:autor>
+      <xdomea:NameInstitution>
+        <xdomea:Name>[Abgebende Stelle]</xdomea:Name>
+      </xdomea:NameInstitution>
+    </xdomea:autor>
+    <!-- UUID des Aussonderungsprozesses, zu dem diese Nachricht gehört -->
+    <xdomea:ProzessID>518c7c31-d1a0-11ef-accb-005056871b7c</xdomea:ProzessID>
+  </xdomea:nachrichtenkopf>
+  <xdomea:Importbestaetigung>1</xdomea:Importbestaetigung>
+  <xdomea:RueckmeldungArchivkennung>0</xdomea:RueckmeldungArchivkennung>
+  <xdomea:Empfangsbestaetigung>0</xdomea:Empfangsbestaetigung>
+  <!--
+    Laufende Nummer und Gesamtzahl der Nachrichten in diesem (d.h. in dem durch
+    die ProzessID benannten) Aussonderungsprozess
+  -->
+  <xdomea:LfdNrNachrichtProTyp>1</xdomea:LfdNrNachrichtProTyp>
+  <xdomea:GesamtanzahlNachrichtenProTyp>1</xdomea:GesamtanzahlNachrichtenProTyp>
+  <xdomea:Schriftgutobjekt>
+    <!--
+      Die Akte, zu der der ausgesonderte Vorgang gehört, die aber selbst nicht
+      ausgesondert wird (Kontextobjekt)
+    -->
+    <xdomea:Akte>
+      <xdomea:Identifikation>
+        <!-- UUID der Akte -->
+        <xdomea:xdomeaUUID>548d5041-d8c8-11ef-9c4e-005056871b7c</xdomea:xdomeaUUID>
+      </xdomea:Identifikation>
+      <xdomea:Kontextobjekt>1</xdomea:Kontextobjekt>
+      <xdomea:AllgemeineMetadaten>
+        <xdomea:Betreff>[Aktenbetreff]</xdomea:Betreff>
+        <xdomea:Kennzeichen>[Aktenzeichen]</xdomea:Kennzeichen>
+        <xdomea:Bemerkung>[Freitext-Bemerkungsfeld]</xdomea:Bemerkung>
+        <xdomea:Aktenplaneinheit>
+          <xdomea:Kennzeichen>[Aktenplankennzeichen]</xdomea:Kennzeichen>
+          <xdomea:Inhaltsangabe>[Aktenplanbetreff]</xdomea:Inhaltsangabe>
+        </xdomea:Aktenplaneinheit>
+      </xdomea:AllgemeineMetadaten>
+      <xdomea:Laufzeit>
+        <xdomea:Beginn>2020-01-01</xdomea:Beginn>
+      </xdomea:Laufzeit>
+      <xdomea:HistorienProtokollInformation>
+        <xdomea:Akteur>[Person/System]</xdomea:Akteur>
+        <xdomea:DatumUhrzeit>2020-01-01T08:12:48Z</xdomea:DatumUhrzeit>
+        <xdomea:Aktion>[Beschreibung der Änderung]</xdomea:Aktion>
+      </xdomea:HistorienProtokollInformation>
+      <!-- <xdomea:HistorienProtokollInformation/> ... -->
+      <xdomea:Akteninhalt>
+        <!-- Der ausgesonderte Vorgang -->
+        <xdomea:Vorgang>
+          <xdomea:Identifikation>
+            <!-- UUID des Vorgangs -->
+            <xdomea:xdomeaUUID>07333b5f-d1a2-11ef-88aa-005056871b7c</xdomea:xdomeaUUID>
+          </xdomea:Identifikation>
+          <xdomea:Kontextobjekt>0</xdomea:Kontextobjekt>
+          <xdomea:AllgemeineMetadaten>
+            <xdomea:Betreff>[Vorgangsbetreff]</xdomea:Betreff>
+            <xdomea:Kennzeichen>[Vorgangskennzeichen]</xdomea:Kennzeichen>
+            <xdomea:Federfuehrung>[federführende Organisationseinheit]</xdomea:Federfuehrung>
+            <xdomea:Geheimhaltung>
+              <xdomea:Geheimhaltungsgrad listURI="urn:xoev-de:xdomea:codeliste:vertraulichkeitsstufe" listVersionID="1.0">
+                <code>003</code>
+                <name>Offen: Das Schriftgutobjekt ist nicht eingestuft.</name>
+              </xdomea:Geheimhaltungsgrad>
+              <!-- <xdomea:Einstufungsfrist>2055</xdomea:Einstufungsfrist> -->
+            </xdomea:Geheimhaltung>
+            <xdomea:Bemerkung>[Freitext-Bemerkungsfeld]</xdomea:Bemerkung>
+            <xdomea:Medium listURI="urn:xoev-de:xdomea:codeliste:medium" listVersionID="1.0">
+              <code>001</code>
+              <name>Elektronisch: Das Schriftgutobjekt liegt ausschließlich in elektronischer Form vor.</name>
+            </xdomea:Medium>
+          </xdomea:AllgemeineMetadaten>
+          <!--
+            Die Aussonderungsmetadaten sind für archivwürdige, auszusondernde
+            Vorgänge zum Zeitpunkt der Aussonderung bereits relativ
+            uninteressant: Es handelt sich primär um Fristen, die bereits
+            abgelaufen (Aufbewahrungsdauer, Transferfrist, ...) und
+            Bewertungsentscheidungen, die bereits getroffen worden sein müssen
+            (nämlich A, sonst würde der Vorgang nicht ausgesondert).
+          -->
+          <!-- <xdomea:Aussonderungsmetadaten/> -->
+          <xdomea:Laufzeit>
+            <xdomea:Beginn>2024-01-01</xdomea:Beginn>
+            <xdomea:Ende>2025-01-14</xdomea:Ende>
+          </xdomea:Laufzeit>
+          <xdomea:HistorienProtokollInformation>
+            <xdomea:Akteur>[Person/System]</xdomea:Akteur>
+            <xdomea:DatumUhrzeit>2024-01-01T11:52:24Z</xdomea:DatumUhrzeit>
+            <xdomea:Aktion>[Beschreibung der Änderung]</xdomea:Aktion>
+          </xdomea:HistorienProtokollInformation>
+          <!-- <xdomea:HistorienProtokollInformation/> ... -->
+          <!-- Ein (logisches) Dokument innerhalb des Vorgangs -->
+          <xdomea:DokumentOderDokumentMitSchriftstueck>
+            <xdomea:Dokument>
+              <xdomea:Identifikation>
+                <!-- UUID des logischen Dokuments -->
+                <xdomea:xdomeaUUID>a42460ea-d1a5-11ef-b6fa-005056871b7c</xdomea:xdomeaUUID>
+                <xdomea:NummerImUebergeordnetenContainer>1</xdomea:NummerImUebergeordnetenContainer>
+              </xdomea:Identifikation>
+              <xdomea:AllgemeineMetadaten>
+                <xdomea:Betreff>[Dokumentbetreff]</xdomea:Betreff>
+                <xdomea:Kennzeichen>[Dokumentkennzeichen]</xdomea:Kennzeichen>
+                <xdomea:Bemerkung>[Freitext-Bemerkungsfeld]</xdomea:Bemerkung>
+                <xdomea:Medium listURI="urn:xoev-de:xdomea:codeliste:medium" listVersionID="1.0">
+                  <code>001</code>
+                  <name>Elektronisch: Das Schriftgutobjekt liegt ausschließlich in elektronischer Form vor.</name>
+                </xdomea:Medium>
+              </xdomea:AllgemeineMetadaten>
+              <xdomea:DatumDesSchreibens>2025-01-14</xdomea:DatumDesSchreibens>
+              <xdomea:Bearbeiter>[Bearbeiter*in]</xdomea:Bearbeiter>
+              <xdomea:HistorienProtokollInformation>
+                <xdomea:Akteur>[Person/System]</xdomea:Akteur>
+                <xdomea:DatumUhrzeit>2025-01-14T13:35:14.124Z</xdomea:DatumUhrzeit>
+                <xdomea:Aktion>[Beschreibung der Änderung]</xdomea:Aktion>
+              </xdomea:HistorienProtokollInformation>
+              <!-- <xdomea:HistorienProtokollInformation/> ... -->
+              <!--
+                Jede Version ist eine Instanz des übergeordneten logischen
+                Dokuments, repräsentiert durch genau eine Datei.
+              -->
+              <xdomea:Version>
+                <xdomea:Nummer>1</xdomea:Nummer>
+                <xdomea:Format>
+                  <xdomea:Name listURI="urn:xoev-de:xdomea:codeliste:dateiformat" listVersionID="2.0">
+                    <code>045</code>
+                    <name>Unicode Text File</name>
+                  </xdomea:Name>
+                  <xdomea:Version/>
+                  <!-- Die eigentliche Datei zu dieser Version -->
+                  <xdomea:Primaerdokument>
+                    <!--
+                      Name der Datei auf Basis einer eigenen UUID. Hier darf
+                      nicht die UUID des übergeordneten logischen Dokuments
+                      wiederverwendet werden, weil zu einem Dokument mehrere
+                      Primärdokumente/Versionen vorliegen können.
+                    -->
+                    <xdomea:Dateiname>8bcadd35-d27b-11ef-ab6c-005056871b7c.txt</xdomea:Dateiname>
+                    <xdomea:DatumUhrzeit>2025-01-14T13:35:14.124Z</xdomea:DatumUhrzeit>
+                    <xdomea:ZeitpunktLetzteAenderung>2025-01-14T13:35:14.124Z</xdomea:ZeitpunktLetzteAenderung>
+                    <xdomea:Hash>
+                      <xdomea:Wert>ebd6798571b4476ed77408a9e7d4dde5ed0d37e3a1c93c9426e86ef40cc0d69f</xdomea:Wert>
+                      <xdomea:Algorithmus listURI="urn:xoev-de:kosit:codeliste:xta.serviceprofile.kryptographische-algorithmen" listVersionID="1.0.0">
+                        <code>SHA-256</code>
+                        <name>http://www.w3.org/2001/04/xmlenc#sha256</name>
+                      </xdomea:Algorithmus>
+                    </xdomea:Hash>
+                  </xdomea:Primaerdokument>
+                </xdomea:Format>
+              </xdomea:Version>
+              <!-- <xdomea:Version/> ... -->
+            </xdomea:Dokument>
+          </xdomea:DokumentOderDokumentMitSchriftstueck>
+          <!-- <xdomea:DokumentOderDokumentMitSchriftstueck/> ... -->
+        </xdomea:Vorgang>
+      </xdomea:Akteninhalt>
+    </xdomea:Akte>
+  </xdomea:Schriftgutobjekt>
+</xdomea:Aussonderung.Aussonderung.0503>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdomea:Aussonderung.Aussonderung.0503 xmlns:xdomea="urn:xoev-de:xdomea:schema:3.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xoev-de:xdomea:schema:3.0.0 /dev/null">
+  <xdomea:Kopf>
+    <xdomea:ProzessID>9fde4e7a-b41b-11ec-9225-005056871b7c</xdomea:ProzessID>
+    <xdomea:Nachrichtentyp listURI="urn:xoev-de:xdomea:codeliste:nachrichtentyp" listVersionID="2.0">
+      <code>0503</code>
+      <name>Aussonderung.Aussonderung</name>
+    </xdomea:Nachrichtentyp>
+    <xdomea:Erstellungszeitpunkt>2022-04-04T15:34:58Z</xdomea:Erstellungszeitpunkt>
+    <xdomea:Absender>
+      <xdomea:Institution>
+        <xdomea:Name>[Abgebende Stelle]</xdomea:Name>
+      </xdomea:Institution>
+      <xdomea:Organisationseinheit>
+        <xdomea:Name>[Abgebende Organisationseinheit]</xdomea:Name>
+      </xdomea:Organisationseinheit>
+    </xdomea:Absender>
+    <xdomea:Empfaenger>
+      <xdomea:Institution>
+        <xdomea:Name>Landesarchiv NRW</xdomea:Name>
+      </xdomea:Institution>
+    </xdomea:Empfaenger>
+    <xdomea:Importbestaetigung>1</xdomea:Importbestaetigung>
+    <xdomea:RueckmeldungArchivkennung>0</xdomea:RueckmeldungArchivkennung>
+    <xdomea:Empfangsbestaetigung>0</xdomea:Empfangsbestaetigung>
+  </xdomea:Kopf>
+  <xdomea:Schriftgutobjekt>
+    <xdomea:Vorgang>
+      <xdomea:Identifikation>
+        <xdomea:ID>67e456ea-b420-11ec-b503-005056871b7c</xdomea:ID>
+      </xdomea:Identifikation>
+      <xdomea:AllgemeineMetadaten>
+        <xdomea:Betreff>[Vorgangsbetreff]</xdomea:Betreff>
+        <xdomea:Kennzeichen>[Vorgangskennzeichen]</xdomea:Kennzeichen>
+        <xdomea:Federfuehrung>[federführende Organisationseinheit]</xdomea:Federfuehrung>
+        <xdomea:Vertraulichkeitsstufe listURI="urn:xoev-de:xdomea:codeliste:vertraulichkeitsstufe" listVersionID="1.0">
+          <code>003</code>
+          <name>Offen: Das Schriftgutobjekt ist nicht eingestuft.</name>
+        </xdomea:Vertraulichkeitsstufe>
+        <xdomea:Bemerkung>[Freitext-Bemerkungsfeld]</xdomea:Bemerkung>
+        <xdomea:Medium listURI="urn:xoev-de:xdomea:codeliste:medium" listVersionID="1.0">
+          <code>001</code>
+          <name>Elektronisch: Das Schriftgutobjekt liegt ausschließlich in elektronischer Form vor.</name>
+        </xdomea:Medium>
+        <xdomea:Aktenplaneinheit>
+          <xdomea:Kennzeichen>[Aktenplankennzeichen]</xdomea:Kennzeichen>
+          <xdomea:Inhaltsangabe>[Aktenplanbetreff]</xdomea:Inhaltsangabe>
+        </xdomea:Aktenplaneinheit>
+      </xdomea:AllgemeineMetadaten>
+      <xdomea:Aktenbetreff>[Aktenbetreff]</xdomea:Aktenbetreff>
+      <xdomea:Laufzeit>
+        <xdomea:Beginn>2010-04-04</xdomea:Beginn>
+        <xdomea:Ende>2012-04-04</xdomea:Ende>
+      </xdomea:Laufzeit>
+      <xdomea:HistorienProtokollInformation>
+        <xdomea:Akteur>[Person/System]</xdomea:Akteur>
+        <xdomea:DatumUhrzeit>2010-04-04T10:22:49Z</xdomea:DatumUhrzeit>
+        <xdomea:Aktion>[Beschreibung der Änderung]</xdomea:Aktion>
+      </xdomea:HistorienProtokollInformation>
+      <!-- <xdomea:HistorienProtokollInformation/> ... -->
+      <xdomea:Dokument>
+        <xdomea:Identifikation>
+          <xdomea:ID>7bf9473a-b4a7-11ec-a407-005056871b7c</xdomea:ID>
+          <xdomea:NummerImUebergeordnetenContainer>1</xdomea:NummerImUebergeordnetenContainer>
+        </xdomea:Identifikation>
+        <xdomea:AllgemeineMetadaten>
+          <xdomea:Betreff>[Dokumentbetreff]</xdomea:Betreff>
+          <xdomea:Kennzeichen>[Dokumentkennzeichen]</xdomea:Kennzeichen>
+          <xdomea:Bemerkung>[Freitext-Bemerkungsfeld]</xdomea:Bemerkung>
+          <xdomea:Medium listURI="urn:xoev-de:xdomea:codeliste:medium" listVersionID="1.0">
+            <code>001</code>
+            <name>Elektronisch: Das Schriftgutobjekt liegt ausschließlich in elektronischer Form vor.</name>
+          </xdomea:Medium>
+        </xdomea:AllgemeineMetadaten>
+        <xdomea:DatumDesSchreibens>2011-02-12</xdomea:DatumDesSchreibens>
+        <xdomea:Bearbeiter>[Bearbeiter*in]</xdomea:Bearbeiter>
+        <xdomea:HistorienProtokollInformation>
+          <xdomea:Akteur>[Person/System]</xdomea:Akteur>
+          <xdomea:DatumUhrzeit>2011-02-12T11:22:35Z</xdomea:DatumUhrzeit>
+          <xdomea:Aktion>[Beschreibung der Änderung]</xdomea:Aktion>
+        </xdomea:HistorienProtokollInformation>
+        <!-- <xdomea:HistorienProtokollInformation/> ... -->
+        <xdomea:Version>
+          <xdomea:Nummer>1</xdomea:Nummer>
+          <xdomea:Format>
+            <xdomea:Name listURI="urn:xoev-de:xdomea:codeliste:dateiformat" listVersionID="2.0">
+              <code>045</code>
+              <!-- Das Element name ist nicht erlaubt laut Schema, vermutlich ein Versehen. -->
+              <!-- <name>Unicode Text File</name> -->
+            </xdomea:Name>
+            <xdomea:Version/>
+            <xdomea:Primaerdokument>
+              <xdomea:Dateiname>f4bcaaf7-d7cb-11ef-a278-005056871b7c.txt</xdomea:Dateiname>
+              <xdomea:DatumUhrzeit>2011-02-12T11:22:35Z</xdomea:DatumUhrzeit>
+            </xdomea:Primaerdokument>
+          </xdomea:Format>
+        </xdomea:Version>
+        <!-- <xdomea:Version/> ... -->
+      </xdomea:Dokument>
+      <!-- <xdomea:Dokument/> ... -->
+    </xdomea:Vorgang>
+  </xdomea:Schriftgutobjekt>
+</xdomea:Aussonderung.Aussonderung.0503>
